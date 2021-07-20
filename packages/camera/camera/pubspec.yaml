@@ -17,9 +17,13 @@ dependencies:
   flutter:
     sdk: flutter
   camera_platform_interface:
-    path: ../camera_platform_interface
+    git:
+      url: https://github.com/kaiquecruz/photobooth.git
+      path: packages/camera/camera_platform_interface
   camera_web:
-    path: ../camera_web
+    git:
+      url: https://github.com/kaiquecruz/photobooth.git
+      path: packages/camera/camera_web
 
 dev_dependencies:
   flutter_test:
