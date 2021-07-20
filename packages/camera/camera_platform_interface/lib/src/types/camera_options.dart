@@ -17,7 +17,7 @@ class CameraOptions {
   }
 }
 
-enum CameraType { environment, user }
+enum CameraType { rear, user, environment }
 enum Constrain { exact, ideal }
 
 class FacingMode {
